@@ -194,7 +194,7 @@ function bits = decode(codeword, P, num_bits)
             bits(1) = 1;
             bits(2) = 0;
             bits(3) = 1;
-        elseif codeword(1) < -6*power_scaled
+        elseif codeword(1) < 6*power_scaled
             bits(1) = 1;
             bits(2) = 1;
             bits(3) = 0;
